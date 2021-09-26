@@ -1,0 +1,89 @@
+.message
+    display: flex
+
+.mes-autor
+    display: flex
+    flex-direction: column
+.chat-body
+    display: flex
+    align-items: baseline 
+    flex-direction: column
+    .message 
+        display: flex
+        margin: 5px
+        padding: 5px
+        position: relative
+        word-break: break-word
+       
+
+        .mes-btm
+            background-color: rgba(255, 255, 255, 0.8)
+            border-radius: 50%
+            border: 0px
+            position: absolute
+            bottom: 5px
+            
+            div
+                margin: 0
+                
+        &.left
+            background-color: rgba(255, 0, 0, 0.2)
+            max-width: 65%
+            border-radius: 50px
+            margin-rigth: auto
+            
+            .mes-btm
+                right: 4px
+            .message-content
+                    display: flex
+                    flex-direction: column
+                    .quot
+                        border: 1px solid white 
+                        margin: 0
+                        padding: 0
+                        display: flex
+                        flex-direction: column
+                        align-self: baseline
+                        margin-left: 20px
+                        margin-top: 5px
+
+                        h6
+                            margin-block-start: 0em
+                            margin-block-end: 0em    
+
+                
+        &.rigth
+            background-color: rgba(0, 255, 0, 0.2)
+            max-width: 65%
+            border-radius: 50px
+            margin-left: auto
+           
+            .message-content
+                    display: flex
+                    flex-direction: column
+                    .quot
+                        border: 1px solid white 
+                        margin: 0
+                        padding: 0
+                        display: flex
+                        flex-direction: column
+                        align-self: baseline
+                        margin-left: 20px
+                        margin-top: 5px
+
+                        h6
+                            margin-block-start: 0em
+                            margin-block-end: 0em    
+
+.mes-autor
+    padding: 10px
+    .h5
+        margin: 0px
+
+    p
+        margin: 0px
+
+
+    
+
+
