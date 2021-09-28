@@ -2,59 +2,62 @@
     display: flex
     max-width: 1920px
     min-width: 800px
-    max-height: 900px
+    max-height: 720px
     min-height: 400px
     background: linear-gradient(to right top, #972c2c, #282f97)
     color: white
     font-family: 'Roboto', sans-serif
+    
+    
     .messages-wrapper
         width: 100%
     .users-aside
         width: 25%
-        border: 1px solid black
+        border: 1px solid white
         border-right: 0px
-        padding-left: 15px
         box-sizing: border-box
-        
         header
-            border-bottom: 1px solid black
+            border-bottom: 1px solid white
+            padding-left: 15px
         form
            display: flex
            flex-direction: column
     .chats-aside
         width: 25%
-        border: 1px solid black
+        border: 1px solid white
         border-right: 0px
-        padding-left: 15px
+       
         box-sizing: border-box
-        .chats
-            display: flex
-            .chats-user
-                width: 100%
+        // .chats
+            // display: flex
+            // .chats-user
+                // width: 100%
         header
-            border-bottom: 1px solid black
+            padding-left: 15px
+            border-bottom: 1px solid white
         .user
             border: 0px 
     section
-        border: 1px solid black
+        border: 1px solid white
         display: flex
         flex-direction: column
         justify-content: flex-end
         
         color: white
-        height: 898px
+        // height: 720px
         width: 50%
         .chat-body 
             overflow-y: scroll
-            max-height: 800px
-
-
+            max-height: 620px
 .users
     overflow-y: scroll
     overflow-x: hidden
-    height: 828px
-    
-    
+    height: 648px
+    box-sizing: border-box
+    button
+        background-color: black
+        color: white
+        border: 0
 .render-messages
     display: flex
 

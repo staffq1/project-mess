@@ -236,7 +236,7 @@ class App extends React.Component {
                             <input name='fio' placeholder = 'фио' />
                             <input name='phone' placeholder = 'phone' />
                             <input name='email' placeholder = 'email' />
-                            <button type = 'submit'  >OK</button>
+                            <button type = 'submit'>OK</button>
                         </form> : <form></form>}
 
                     </div>
@@ -269,7 +269,7 @@ class App extends React.Component {
                             {this.state.messageObj !== null && <div className='quote'>
                                 <div>  
                                     <div>{this.state.messageObj.from.fio ? this.state.messageObj.from.fio : this.state.messageObj.to.fio}</div> 
-                                    {this.state.messageObj.text}
+                                    <div>{this.state.messageObj.text}</div>
                                 </div>
                                 <button onClick={() => this.setState({messageObj: null})}>
                                     <div>+</div>
